@@ -71,3 +71,11 @@ ws.send('Hello World')
 ```javascript
 ws.destroyed()
 ```
+
+#### 获取实例
+
+获取创建的 websocket 实例，一般情况下不推荐使用该方法。
+
+```javascript
+ws.getWSInstance()
+```
